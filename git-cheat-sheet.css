@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.git-heading {
+  background: repeating-linear-gradient(0deg, #ffffff, beige 72px);
+  padding: 16px;
+  font-family: cursive;
+  text-align: center;
+  border: 8px dashed black;
+}
+.git-heading > h1 {
+  margin: 0;
+  font-family: cursive;
+  font-size: xxx-large;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.container {
+  margin: 0;
+  width: 100% !important;
+  padding: 24px;
+  background: whitesmoke;
+}
+.col-12 {
+  padding: 8px;
+  margin: 16px 0;
+  border: 2px dashed black;
+  border-radius: 8px;
+}
+.col-12 > h3 {
+  background-color: #b8ffe7;
+  margin-top: 10px;
+  font-family: monospace;
+  text-align: center;
+  border-style: dotted;
+}
+.col-12:hover {
+  box-shadow: 4px 4px 8px 1px black;
+}
+.col-12:hover > h3 {
+  font-size: 32px;
+}
+.col-12 > h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  background: beige;
+  padding: 4px 2px;
+}
